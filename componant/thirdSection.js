@@ -10,7 +10,7 @@ export default function ThirdSection() {
       <Image src="https://media.discordapp.net/attachments/910331361179619370/991595529601568848/Group_21343.png" />
       <HStack spacing={"30px"}>
         <Text>{Section3[language].section}</Text>
-        <Text fontWeight={"semibold"} fontSize="63px">
+        <Text fontWeight={"semibold"} fontSize={["40px", "63px"]}>
           ELFC
         </Text>
       </HStack>
