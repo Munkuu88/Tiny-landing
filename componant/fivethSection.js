@@ -11,39 +11,41 @@ import {
 const Array = [
   {
     title: "Demo Launch",
-    list: [
-      "aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    ],
+    list: ["Finalizing MVP", "Beta-testing on Blockchain", "IOS Application"],
     image:
       "https://media.discordapp.net/attachments/910331361179619370/991894928626024478/Icon_ColorIcon_Gem_l_1.png",
   },
   {
     title: "V1.0 Launch",
-    list: ["b"],
+    list: [
+      "Fully functional game play",
+      "NFT marketplace",
+      "Play, Learn, Earn mechanism",
+    ],
     image:
       "https://media.discordapp.net/attachments/910331361179619370/991894927803944980/Icon_ColorIcon_Medal02.png",
   },
   {
     title: "IEO at Dubai",
-    list: ["c"],
+    list: ["Initial Exchange Offering", "Tiny token release", "Global listing"],
     image:
       "https://media.discordapp.net/attachments/910331361179619370/991894927418081310/Icon_ColorIcon_Chest02_Purple.png",
   },
   {
     title: "Game-as-a-Service",
-    list: ["p"],
+    list: ["3rd party EdTech projects", "Integration to other dApps"],
     image:
       "https://media.discordapp.net/attachments/910331361179619370/991894927007027220/Icon_ColorIcon_Leaderboard_1.png",
   },
   {
     title: "Battle studio",
-    list: ["g"],
+    list: ["Battle game maker for projects", "Assets creator"],
     image:
       "https://media.discordapp.net/attachments/910331361179619370/991894924167499796/Icon_ColorIcon_Weapon_Battle_s_1.png",
   },
   {
     title: "Tiny Land",
-    list: ["u"],
+    list: ["Land offering", "Land sales", "Land to govern"],
     image:
       "https://media.discordapp.net/attachments/910331361179619370/991894923752247346/itemicon_eatrh_1.png",
   },
