@@ -3,6 +3,8 @@ import FirstSection from "../componant/firstSection";
 import SecondSection from "../componant/secondSection";
 import ThirdSection from "../componant/thirdSection";
 import FourthSection from "../componant/fourthSection";
+import FivethSection from "../componant/fivethSection";
+import SixthSection from "../componant/sixthSection";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <ThirdSection />
         <FourthSection />
       </Box>
+      <SixthSection />
+      <FivethSection />
     </Flex>
   );
 }

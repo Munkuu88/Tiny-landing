@@ -3,6 +3,7 @@ import Header from "../componant/Header";
 import { Box } from "@chakra-ui/react";
 import { LanguageContextProvider } from "../context/languageContext";
 import { ChakraProvider } from "@chakra-ui/react";
+import Footer from "../componant/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
           <Box w="100%" h={["50px", "70px"]} />
           <Header />
           <Component {...pageProps} />
+          <Footer />
         </ChakraProvider>
       </LanguageContextProvider>
     </>
