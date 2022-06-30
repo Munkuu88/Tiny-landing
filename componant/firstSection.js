@@ -15,7 +15,7 @@ export default function FirstSection() {
 
   return (
     <Box as="section" w={["95%", "95%", "80%", "60%", "60%"]} id="About">
-      <Flex py="80px">
+      <Flex py="150px">
         <VStack
           w={["100%", "100%", "100%", "50%", "50%"]}
           alignItems={"unset"}

@@ -11,7 +11,7 @@ export default function Home() {
     <Flex flexDirection={"column"} alignItems="center" className="container">
       <FirstSection />
       <SecondSection />
-      <Box as="section" w={["95%", "95%", "80%", "60%", "60%"]} id="#Token">
+      <Box as="section" w={["95%", "95%", "80%", "60%", "60%"]} id="Token">
         <ThirdSection />
         <FourthSection />
       </Box>

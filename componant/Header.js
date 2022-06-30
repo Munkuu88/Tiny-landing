@@ -5,7 +5,7 @@ import {
   Icon,
   Box,
   Drawer,
-  DrawerOverlay,
+  Image,
   DrawerCloseButton,
   DrawerContent,
   DrawerHeader,
@@ -13,6 +13,7 @@ import {
   DrawerFooter,
   useDisclosure,
   Button,
+  VStack,
 } from "@chakra-ui/react";
 import { FaDiscord, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
@@ -24,7 +25,7 @@ const Pages = [
   { text: "About", link: "About" },
   { text: "Token", link: "Token" },
   { text: "How to play", link: "how-to-play" },
-  { text: "Roadmap", link: "" },
+  { text: "Roadmap", link: "Roadmap" },
 ];
 
 const Icons = [
@@ -44,6 +45,7 @@ export default function Header() {
   return (
     <>
       <Flex
+        zIndex={100}
         bg={"#7851A2"}
         justifyContent={"center"}
         display={["none", "none", "none", "flex", "fixed"]}
@@ -51,6 +53,10 @@ export default function Header() {
         w="100%"
         top="0"
       >
+        <Image
+          pos={"absolute"}
+          src="https://media.discordapp.net/attachments/910331361179619370/991907304452669470/Frame.png"
+        />
         <Flex
           justifyContent={"space-between"}
           w={["60%"]}
@@ -101,6 +107,7 @@ export default function Header() {
         </Flex>
       </Flex>
       <Flex
+        zIndex={100}
         justifyContent="center"
         bg={"#7851A2"}
         display={["flex", "flex", "flex", "none", "none"]}
@@ -133,25 +140,31 @@ const DrawerMenu = ({ isOpen, onOpen, onClose, Pages }) => {
       onClose={onClose}
       finalFocusRef={btnRef}
     >
-      <DrawerContent>
+      <DrawerContent bg={"#7851A2"} color={"white"}>
         <DrawerCloseButton />
         <DrawerHeader>Tiny learn application</DrawerHeader>
         <DrawerBody>
-          {Pages.map((el) => {
-            return (
-              <a href={`#${el.link}`} key={el.link}>
-                <Text fontSize={"14px"} cursor="pointer" onClick={onClose}>
-                  {el.text}
-                </Text>
-              </a>
-            );
-          })}
+          <VStack
+            alignItems={"unset"}
+            spacing={"20px"}
+            fontWeight={"bold"}
+            fontSize={"lg"}
+          >
+            {Pages.map((el) => {
+              return (
+                <a href={`#${el.link}`} key={el.link}>
+                  <Text fontSize={"14px"} cursor="pointer" onClick={onClose}>
+                    {el.text}
+                  </Text>
+                </a>
+              );
+            })}
+          </VStack>
         </DrawerBody>
         <DrawerFooter>
           <Button variant="outline" mr={3} onClick={onClose}>
             Cancel
           </Button>
-          <Button colorScheme="blue">Save</Button>
         </DrawerFooter>
       </DrawerContent>
     </Drawer>

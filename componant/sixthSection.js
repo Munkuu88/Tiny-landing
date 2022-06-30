@@ -2,7 +2,12 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 
 export default function SixthSection() {
   return (
-    <Box as="section" w={["95%", "95%", "80%", "60%", "60%"]} py="80px">
+    <Box
+      as="section"
+      w={["95%", "95%", "90%", "60%", "60%"]}
+      id="how-to-play"
+      py="80px"
+    >
       <Flex alignItems={"center"} flexDir="column">
         <Text
           pb="80px"
@@ -12,7 +17,11 @@ export default function SixthSection() {
         >
           How to play
         </Text>
-        <Box h={["30vh", "50vh"]} w={["100%", "80%"]} bg="black"></Box>
+        <Box
+          h={["30vh", "30vh", "30vh", "50vh", "50vh"]}
+          w={["100%", "80%"]}
+          bg="black"
+        ></Box>
       </Flex>
     </Box>
   );
