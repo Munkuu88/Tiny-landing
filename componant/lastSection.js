@@ -38,7 +38,12 @@ export default function LastSection() {
   ];
 
   return (
-    <VStack w="100%" alignItems="unset" w={["95%", "95%", "80%", "60%", "60%"]}>
+    <VStack
+      w="100%"
+      alignItems="unset"
+      w={["95%", "95%", "80%", "60%", "60%"]}
+      py="80px"
+    >
       <Flex alignItems={"center"}>
         <Text
           fontWeight={"bold"}
@@ -54,7 +59,7 @@ export default function LastSection() {
           bgImage={"linear-gradient(to right, #EF518B, #fff)"}
         />
       </Flex>
-      <SimpleGrid columns={(2, 4)} gap={4}>
+      <SimpleGrid columns={[2, 4]} gap={4}>
         {ReaMore.map((el, ind) => {
           return (
             <VStack key={ind} alignItems={"unset"}>

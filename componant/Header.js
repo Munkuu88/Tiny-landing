@@ -63,7 +63,7 @@ export default function Header() {
           py="16px"
           alignItems={"center"}
         >
-          <HStack>
+          <HStack spacing={"20px"}>
             {Pages.map((el) => {
               return (
                 <a href={`#${el.link}`} key={el.link}>
