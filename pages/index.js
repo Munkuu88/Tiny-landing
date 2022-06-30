@@ -5,6 +5,7 @@ import ThirdSection from "../componant/thirdSection";
 import FourthSection from "../componant/fourthSection";
 import FivethSection from "../componant/fivethSection";
 import SixthSection from "../componant/sixthSection";
+import LastSection from "../componant/lastSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Box>
       <SixthSection />
       <FivethSection />
+      <LastSection />
     </Flex>
   );
 }
