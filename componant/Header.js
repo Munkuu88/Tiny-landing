@@ -29,7 +29,7 @@ const Pages = [
 ];
 
 const Icons = [
-  { icon: FaDiscord, link: "1" },
+  { icon: FaDiscord, link: "https://discord.com/invite/PHKGAKUA" },
   { icon: FaFacebookSquare, link: "https://www.facebook.com/Tiny.Learnapp/" },
   { icon: FaInstagram, link: "https://www.instagram.com/tiny.learnapp/" },
 ];
