@@ -44,16 +44,16 @@ export default function LastSection() {
       w={["95%", "95%", "80%", "60%", "60%"]}
       py="80px"
     >
-      <Flex alignItems={"center"}>
+      <Flex alignItems={"center"} mb={["50px", "0px"]}>
         <Text
           fontWeight={"bold"}
           color={"#EF518B"}
           fontSize={["35px", "48px"]}
-          pr="20px"
+          pr={["10px", "20px"]}
         >
           Read Our More
         </Text>
-        <Flex
+        <Box
           h="1px"
           flex={1}
           bgImage={"linear-gradient(to right, #EF518B, #fff)"}

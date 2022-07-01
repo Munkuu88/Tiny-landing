@@ -15,7 +15,7 @@ import {
   Button,
   VStack,
 } from "@chakra-ui/react";
-import { FaDiscord, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaDiscord, FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { useLanguage } from "../context/languageContext";
 import { languages } from "../context/languageContext";
@@ -30,8 +30,8 @@ const Pages = [
 
 const Icons = [
   { icon: FaDiscord, link: "1" },
-  { icon: FaTwitter, link: "2" },
-  { icon: FaInstagram, link: "3" },
+  { icon: FaFacebookSquare, link: "https://www.facebook.com/Tiny.Learnapp/" },
+  { icon: FaInstagram, link: "https://www.instagram.com/tiny.learnapp/" },
 ];
 
 export default function Header() {
@@ -91,7 +91,7 @@ export default function Header() {
               {Icons.map((el) => {
                 return (
                   <Box key={el.link}>
-                    <a target={"_blank"}>
+                    <a href={el.link} target={"_blank"}>
                       <Icon
                         cursor={"pointer"}
                         boxSize={"22px"}
@@ -116,7 +116,10 @@ export default function Header() {
         w="100%"
       >
         <Flex justifyContent="space-between" py="10px" w="95%">
-          <Text color="white">Tiny</Text>
+          <Image
+            w="15%"
+            src="https://media.discordapp.net/attachments/910331361179619370/992270383522787388/Asset_7150x.png"
+          />
           <Icon as={FiMenu} boxSize="30px" color="white" onClick={onOpen} />
           <DrawerMenu
             isOpen={isOpen}
