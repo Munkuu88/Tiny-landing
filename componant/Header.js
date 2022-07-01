@@ -53,10 +53,9 @@ export default function Header() {
         w="100%"
         top="0"
       >
-        <Image
-          pos={"absolute"}
-          src="https://media.discordapp.net/attachments/910331361179619370/991907304452669470/Frame.png"
-        />
+        <Box href="/" pos={"absolute"} as="a">
+          <Image src="https://media.discordapp.net/attachments/910331361179619370/991907304452669470/Frame.png" />
+        </Box>
         <Flex
           justifyContent={"space-between"}
           w={["60%"]}

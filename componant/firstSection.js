@@ -21,7 +21,10 @@ export default function FirstSection() {
           alignItems={"unset"}
           spacing="30px"
         >
-          <Flex justifyContent="center">
+          <Flex
+            justifyContent="center"
+            display={["flex", "flex", "flex", "none", "none"]}
+          >
             <Image
               w="60%"
               src="https://media.discordapp.net/attachments/910331361179619370/991907304452669470/Frame.png"
