@@ -17,7 +17,7 @@ export default function FirstSection() {
     <>
       <Image
         src="https://media.discordapp.net/attachments/910331361179619370/993817869043367986/Group_21514.png?width=2592&height=1350"
-        zIndex={1}
+        zIndex={0}
         pos={["static", "static", "static", "absolute", "absolute"]}
       />
       <Box
@@ -48,6 +48,7 @@ export default function FirstSection() {
                 width={"fit-content"}
                 fontWeight="bold"
                 fontSize={"23px"}
+                zIndex={1}
               >
                 {Section1[language].section2}
               </Button>
