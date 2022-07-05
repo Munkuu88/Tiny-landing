@@ -18,22 +18,30 @@ export default function LastSection() {
     {
       title: LastSectionText[language].section,
       desc: LastSectionText[language].sectionDesc,
-      image: "",
+      image:
+        "https://media.discordapp.net/attachments/910331361179619370/993827480538460160/Screen_Shot_2022-07-05_at_18.35.22.png",
+      link: "https://ikon.mn/n/2l1i",
     },
     {
       title: LastSectionText[language].section1,
       desc: LastSectionText[language].sectionDesc1,
-      image: "",
+      image:
+        "https://media.discordapp.net/attachments/910331361179619370/993827185930551326/image00001.png",
+      link: "https://www.youtube.com/watch?v=KphwW6UZOSU",
     },
     {
       title: LastSectionText[language].section2,
       desc: LastSectionText[language].sectionDesc2,
-      image: "",
+      image:
+        "https://media.discordapp.net/attachments/910331361179619370/993827120038035517/Artboard_1_copy_3.png",
+      link: "https://www.instagram.com/p/Cfa5XGLMz8W/",
     },
     {
       title: LastSectionText[language].section3,
       desc: LastSectionText[language].sectionDesc3,
-      image: "",
+      image:
+        "https://cdn.discordapp.com/attachments/910331361179619370/993827144004284486/Artboard_2.png",
+      link: "https://www.instagram.com/p/CeAXzr7P2g-/?utm_source=ig_web_copy_link",
     },
   ];
 
@@ -62,17 +70,19 @@ export default function LastSection() {
       <SimpleGrid columns={[2, 4]} gap={4}>
         {ReaMore.map((el, ind) => {
           return (
-            <VStack key={ind} alignItems={"unset"}>
-              <AspectRatio ratio={4 / 3}>
-                <Image src={el.image} borderRadius={"5px"} />
-              </AspectRatio>
-              <Text fontWeight={"bold"} fontSize={"sm"}>
-                {el.title}
-              </Text>
-              <Text noOfLines={2} fontSize={"xs"}>
-                {el.desc}
-              </Text>
-            </VStack>
+            <a key={el.image} href={el.link} target={"_blank"}>
+              <VStack alignItems={"unset"}>
+                <AspectRatio ratio={4 / 3}>
+                  <Image src={el.image} borderRadius={"5px"} />
+                </AspectRatio>
+                <Text noOfLines={1} fontWeight={"bold"} fontSize={"sm"}>
+                  {el.title}
+                </Text>
+                <Text noOfLines={2} fontSize={"xs"}>
+                  {el.desc}
+                </Text>
+              </VStack>
+            </a>
           );
         })}
       </SimpleGrid>

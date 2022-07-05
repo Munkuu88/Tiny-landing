@@ -34,7 +34,7 @@ export default function FirstSection() {
           >
             <Text
               fontWeight={"600"}
-              fontSize={["25px", "38px"]}
+              fontSize={["20px", "38px"]}
               lineHeight={["30px", "46px"]}
             >
               {Section1[language].section}
