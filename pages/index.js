@@ -1,4 +1,4 @@
-import { Box, Flex, VStack, HStack, Button } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import FirstSection from "../componant/firstSection";
 import SecondSection from "../componant/secondSection";
 import ThirdSection from "../componant/thirdSection";
