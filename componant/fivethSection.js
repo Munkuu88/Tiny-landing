@@ -104,6 +104,14 @@ export default function FivethSection() {
           })}
         </SimpleGrid>
       </Flex>
+      <Image
+        display={["none", "none", "none", "block", "block"]}
+        src="https://media.discordapp.net/attachments/910331361179619370/993811244710645863/Frame_21241.png"
+      />
+      <Image
+        display={["block", "block", "block", "none", "none"]}
+        src="https://media.discordapp.net/attachments/910331361179619370/993812097261649950/Group_21513.png"
+      />
     </Box>
   );
 }

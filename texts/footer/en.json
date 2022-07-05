@@ -1,8 +1,8 @@
 {
-  "OurTeam": "Our team",
-  "More": "More",
-  "Connect": "Connect",
-  "AboutUs": "About us",
+  "aboutUs": "About us",
+  "token": "Token",
+  "how": "How to play",
+  "road": "Road map",
   "Team": "Team",
   "WhatWeDo": "What we do",
   "Contact": "Contact",
