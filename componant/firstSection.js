@@ -39,7 +39,9 @@ export default function FirstSection() {
             >
               {Section1[language].section}
             </Text>
-            <Text width={"400px"}>{Section1[language].section1}</Text>
+            <Text width={["unset", "400px"]}>
+              {Section1[language].section1}
+            </Text>
             <HStack>
               <Button
                 color="white"
