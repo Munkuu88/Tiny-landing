@@ -24,16 +24,15 @@ export default function SixthSection() {
           w={["100%", "80%"]}
         >
           <Box
+            as="iframe"
             pos={"absolute"}
             left={0}
             top={0}
             w={"100%"}
             h={["30vh", "30vh", "30vh", "50vh", "50vh"]}
-            as="iframe"
             src="https://player.vimeo.com/video/727035996?h=09fc1b06fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameborder="0"
+            border="none"
             allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
             title="ThunderZ Erka - Niseerei (Official Music Video).mp4"
           ></Box>
         </Box>
