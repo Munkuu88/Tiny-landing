@@ -15,12 +15,22 @@ export default function FirstSection() {
 
   return (
     <Box as="section" w={["95%", "95%", "80%", "60%", "60%"]} id="About">
-      <Flex py="150px">
+      <Flex py={["75px", "150px"]}>
         <VStack
           w={["100%", "100%", "100%", "50%", "50%"]}
           alignItems={"unset"}
           spacing="30px"
         >
+          <Flex
+            justifyContent="center"
+            display={["flex", "flex", "flex", "none", "none"]}
+          >
+            <Image
+              w="60%"
+              src="https://media.discordapp.net/attachments/910331361179619370/991907304452669470/Frame.png"
+            />
+          </Flex>
+
           <Text
             fontWeight={"600"}
             fontSize={["25px", "38px"]}

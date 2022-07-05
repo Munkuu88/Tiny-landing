@@ -73,7 +73,7 @@ const Component = ({ data }) => {
       >
         {data.title}
       </Box>
-      <VStack w="100%" alignItems={"unset"}>
+      <VStack w="100%" alignItems={"unset"} pl={["0px", "40px"]}>
         {data.list.map((el) => {
           return <li key={el}>{el}</li>;
         })}
@@ -94,7 +94,7 @@ export default function FivethSection() {
         >
           Roadmap
         </Text>
-        <SimpleGrid columns={[2, 2, 3, 6, 6]} gap={[6, 4]} w="100%">
+        <SimpleGrid columns={[2, 2, 3, 3, 3]} gap={[6, 4]} w="100%">
           {Array.map((el) => {
             return (
               <GridItem w="100%" key={el.title}>

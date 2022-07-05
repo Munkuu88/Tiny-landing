@@ -19,7 +19,7 @@ const Item = ({ data }) => {
       <Text fontWeight={"bold"}>{data.title}</Text>
       {data.list.map((el) => {
         return (
-          <a href={el.link} key={el.text}>
+          <a href={el.link} target={"_blank"} key={el.text}>
             <Text fontSize={"sm"}>{el.text}</Text>
           </a>
         );
@@ -53,10 +53,19 @@ export default function Footer() {
     {
       title: FooterText[language].Connect,
       list: [
-        { text: FooterText[language].Facebook, link: "" },
-        { text: FooterText[language].Instagram, link: "" },
-        { text: FooterText[language].Twitter, link: "" },
-        { text: FooterText[language].Linkdin, link: "" },
+        {
+          text: FooterText[language].Facebook,
+          link: "https://www.facebook.com/Tiny.Learnapp/",
+        },
+        {
+          text: FooterText[language].Instagram,
+          link: "https://www.instagram.com/tiny.learnapp/",
+        },
+        // { text: FooterText[language].Twitter, link: "" },
+        {
+          text: FooterText[language].Linkdin,
+          link: "https://www.linkedin.com/company/starttiny/",
+        },
       ],
     },
   ];
