@@ -9,9 +9,6 @@ import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-      </Head>
       <LanguageContextProvider>
         <ChakraProvider>
           <Box w="100%" h={["50px", "70px"]} />
