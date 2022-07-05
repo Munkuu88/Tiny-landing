@@ -7,7 +7,7 @@ const Component = ({ data }) => {
     <HStack
       spacing={["0px", "0px", "0px", "60px", "60px"]}
       py={["20px", "20px", "50px", "60px", "60px"]}
-      px={["20px", "20px", "50px", "100px", "100px"]}
+      px={["20px", "20px", "50px", "50px", "100px"]}
       w="100%"
       flexDir={data.flex}
       border="1px solid #EF518B"
