@@ -30,10 +30,12 @@ export default function SixthSection() {
             top={0}
             w={"100%"}
             h={["30vh", "30vh", "30vh", "50vh", "50vh"]}
-            src="https://player.vimeo.com/video/727035996?h=09fc1b06fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://www.youtube.com/embed/a7lNoNg6d7k"
             border="none"
-            allow="autoplay; fullscreen; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
             title="ThunderZ Erka - Niseerei (Official Music Video).mp4"
+            frameBorder="0"
           ></Box>
         </Box>
       </Flex>
