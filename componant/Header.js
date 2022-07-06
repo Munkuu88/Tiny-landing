@@ -74,18 +74,20 @@ export default function Header() {
             })}
           </HStack>
           <HStack spacing={"20px"}>
-            {/* <a target={"_blank"} href=""> */}
-            <Text
-              onClick={toggleTheme}
-              color={"white"}
-              cursor="pointer"
-              borderRadius={"8px"}
-              p="6px"
-              border="1px solid white"
+            <a
+              target={"_blank"}
+              href="https://tomujin-digital.gitbook.io/welcome-to-gitbook/"
             >
-              Whitepaper
-            </Text>
-            {/* </a> */}
+              <Text
+                color={"white"}
+                cursor="pointer"
+                borderRadius={"8px"}
+                p="6px"
+                border="1px solid white"
+              >
+                Whitepaper
+              </Text>
+            </a>
             <HStack>
               {Icons.map((el) => {
                 return (

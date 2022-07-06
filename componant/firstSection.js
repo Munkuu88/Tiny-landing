@@ -43,17 +43,22 @@ export default function FirstSection() {
               {Section1[language].section1}
             </Text>
             <HStack>
-              <Button
-                color="white"
-                _hover={{ bg: "#7851A2" }}
-                bg={"#7851A2"}
-                width={"fit-content"}
-                fontWeight="bold"
-                fontSize={"23px"}
-                zIndex={1}
+              <a
+                href="https://testflight.apple.com/join/48eRoWz7"
+                target={"_blank"}
               >
-                {Section1[language].section2}
-              </Button>
+                <Button
+                  color="white"
+                  _hover={{ bg: "#7851A2" }}
+                  bg={"#7851A2"}
+                  width={"fit-content"}
+                  fontWeight="bold"
+                  fontSize={"23px"}
+                  zIndex={1}
+                >
+                  {Section1[language].section2}
+                </Button>
+              </a>
               <Box boxSize={"50px"} pos="relative">
                 <Image
                   pos={"absolute"}
