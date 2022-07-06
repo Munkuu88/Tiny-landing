@@ -163,6 +163,14 @@ const DrawerMenu = ({ isOpen, onOpen, onClose, Pages }) => {
                 </a>
               );
             })}
+            <a
+              target={"_blank"}
+              href="https://tomujin-digital.gitbook.io/welcome-to-gitbook/"
+            >
+              <Text fontSize={"14px"} cursor="pointer">
+                Whitepaper
+              </Text>
+            </a>
           </VStack>
         </DrawerBody>
         <DrawerFooter>
