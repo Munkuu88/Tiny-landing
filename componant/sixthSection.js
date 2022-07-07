@@ -30,7 +30,7 @@ export default function SixthSection() {
             top={0}
             w={"100%"}
             h={["30vh", "30vh", "30vh", "50vh", "50vh"]}
-            src="https://www.youtube.com/embed/a7lNoNg6d7k"
+            src="https://www.youtube.com/embed/KphwW6UZOSU"
             border="none"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
