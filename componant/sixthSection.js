@@ -15,7 +15,7 @@ export default function SixthSection() {
           color={"#EF518B"}
           fontSize={["35px", "48px"]}
         >
-          How to play
+          Meet Tiny
         </Text>
         <Box
           pos={"relative"}
