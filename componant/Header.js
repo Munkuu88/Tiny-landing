@@ -24,8 +24,8 @@ import React from "react";
 const Pages = [
   { text: "About", link: "About" },
   { text: "Token", link: "Token" },
-  { text: "How to play", link: "how-to-play" },
-  { text: "Roadmap", link: "Roadmap" },
+  { text: "Meet tiny", link: "how-to-play" },
+  // { text: "Roadmap", link: "Roadmap" },
 ];
 
 const Icons = [

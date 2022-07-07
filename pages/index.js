@@ -17,7 +17,7 @@ export default function Home() {
         <FourthSection />
       </Box>
       <SixthSection />
-      <FivethSection />
+      {/* <FivethSection /> */}
       <LastSection />
     </Flex>
   );
